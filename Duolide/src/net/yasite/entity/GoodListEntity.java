@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.List;
 
 public class GoodListEntity implements Serializable {
-	private List<GoodEntity> list;
+	private List<GoodEntity> alist;
 
 	public List<GoodEntity> getList() {
-		return list;
+		return alist;
 	}
 
 	public void setList(List<GoodEntity> list) {
-		this.list = list;
+		this.alist = list;
 	}
 	
 }
